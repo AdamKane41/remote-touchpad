@@ -50,6 +50,7 @@ button {
     color: white;
     font-family: "icon";
     overflow: hidden;
+    padding: 0;
 }
 
 button:focus {
