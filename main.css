@@ -8,7 +8,6 @@
 }
 
 html {
-    overflow: hidden;
     font-family: sans-serif;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -58,7 +57,8 @@ button:focus {
     outline: none;
 }
 
-#opening, #closed {
+#opening,
+#closed {
     padding: 0 0.5rem;
 }
 
@@ -161,7 +161,7 @@ textarea {
     justify-content: center;
     margin-bottom: 0.5rem;
     flex-shrink: 1;
-    height: 6rem;
+    height: 10rem;
     min-height: 0;
 }
 
@@ -172,6 +172,6 @@ textarea {
 #keys .buttons > button {
     flex-shrink: 1;
     height: 100%;
-    width: 8rem;
+    width: 10rem;
     min-width: 0;
 }
